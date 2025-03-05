@@ -28,7 +28,7 @@ public class UserContoller {
         return  ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
-    @PostMapping("/signin")
+    @PostMapping("/signIn")
     public ResponseEntity<Void> signIn(String userName, String password){
 
         return ResponseEntity.status(HttpStatus.CREATED).build();
